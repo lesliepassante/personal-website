@@ -2,5 +2,4 @@
 https://lesliepassante.netlify.com/* https://lesliepassante.com/:splat 301!
 
 # Redirect project traffic to project site
-/projects/rideshare-viz /projects/rideshare-viz/ 301!
-/projects/rideshare-viz/* https://rideshare-viz.netlify.com/:splat 200
+/projects/rideshare-viz/* https://rideshare-viz.netlify.com/:splat 200!
