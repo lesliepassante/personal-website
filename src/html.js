@@ -3,12 +3,14 @@ import PropTypes from 'prop-types';
 
 export default function HTML(props) {
   return (
-    <html {...props.htmlAttributes}>
+    <html {...props.htmlAttributes} lang="en">
       <head>
         <title>Leslie Passante</title>
         <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="Description" content="Leslie Passante's website is coming soon." />
         {props.headComponents}
-        <link href="https://fonts.googleapis.com/css?family=sRoboto:300,400&display=swap" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet"></link>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}

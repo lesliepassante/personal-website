@@ -1,26 +1,10 @@
 import React from 'react';
+import Layout from 'components/Layout';
 
 export default () => (
-  <main>
-    <p
-      style={{
-        fontSize: '20px',
-        fontFamily: 'Roboto, sans-serif',
-        fontWeight: 300,
-        margin: '100px 50px'
-      }}
-    >
-      Leslie Passante's website is coming soon. Meanwhile,{' '}
-      <a
-        style={{
-          color: '#909090',
-          textDecoration: 'none'
-        }}
-        href="mailto: leslie.passante@gmail.com"
-      >
-        get in touch
-      </a>
-      .
+  <Layout>
+    <p>
+      Leslie Passante's website is coming soon. Meanwhile, <a href="mailto: leslie.passante@gmail.com">get in touch</a>.
     </p>
-  </main>
+  </Layout>
 );
