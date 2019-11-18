@@ -7,7 +7,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-alias-imports',
       options: {
-        alias: { components: path.resolve(__dirname, 'src/components') }
+        alias: { components: path.resolve(__dirname, 'src/components') },
+        extensions: ['js', 'jsx']
       }
     }
   ]
