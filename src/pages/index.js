@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedinIn, FaInstagram, FaEnvelope, FaAngellist } from 'react-icons/fa';
+import { FaLinkedinIn, FaInstagram, FaEnvelope, FaAngellist, FaGithub } from 'react-icons/fa';
 import Layout from 'components/Layout';
 import Social from 'components/Social';
 
@@ -15,6 +15,9 @@ export default () => (
       </Social>
       <Social href="https://angel.co/lesliepassante">
         <FaAngellist />
+      </Social>
+      <Social href="https://github.com/lesliepassante">
+        <FaGithub />
       </Social>
       <Social href="https://www.instagram.com/lesliepassante/">
         <FaInstagram />
