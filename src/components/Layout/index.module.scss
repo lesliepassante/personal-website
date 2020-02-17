@@ -1,0 +1,17 @@
+.layout {
+  margin: 15vh 5vw;
+
+  p {
+    font: 300 1.5rem 'Roboto', sans-serif;
+    line-height: 2.5rem;
+  }
+
+  a {
+    color: #909090;
+    text-decoration: none;
+
+    &:hover {
+      color: #000;
+    }
+  }
+}

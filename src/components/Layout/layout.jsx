@@ -1,4 +1,4 @@
 import React from 'react';
-import styles from './layout.module.scss';
+import styles from './index.module.scss';
 
 export default ({ children }) => <main className={styles.layout}>{children}</main>;
